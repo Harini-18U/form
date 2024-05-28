@@ -1,0 +1,92 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form-checkbox-group, .form-radio-group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  
+  /* .form-checkbox, .form-radio {
+    margin-right: 5px;
+  } */
+  
+  .form-textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .form-submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }  
